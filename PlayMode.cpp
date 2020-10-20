@@ -113,7 +113,7 @@ bool PlayMode::handle_event(SDL_Event const &evt, glm::uvec2 const &window_size)
 			return true;
 		}
 		else if (evt.key.keysym.sym == SDLK_9) {
-			if (count == 0)
+			if (count == 2)
 			{
 				count++;
 				std::cout << "9!!!!" << std::endl;
