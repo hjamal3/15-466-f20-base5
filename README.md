@@ -1,4 +1,4 @@
-# Dumb Puzzle
+# Silly Puzzle
 
 Author: Haidar Jamal
 
