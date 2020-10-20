@@ -66,7 +66,7 @@ PlayMode::PlayMode() : scene(*phonebank_scene) {
 	//start player walking at nearest walk point:
 	player.at = walkmesh->nearest_walk_point(player.transform->position);
 
-	std::cout << "Why is 6 scared of 7? Because: " << std::endl;
+	std::cout << "Why is 6 scared of 7? Because... "
 
 }
 
@@ -94,6 +94,32 @@ bool PlayMode::handle_event(SDL_Event const &evt, glm::uvec2 const &window_size)
 		} else if (evt.key.keysym.sym == SDLK_s) {
 			down.downs += 1;
 			down.pressed = true;
+			return true;
+		}
+		else if (evt.key.keysym.sym == SDLK_7) {
+			if (count == 0)
+			{
+				count++;
+				std::cout << "7 ";
+			}
+			return true;
+		}
+		else if (evt.key.keysym.sym == SDLK_8) {
+			if (count == 1)
+			{
+				count++;
+				std::cout << "8 ";
+			}
+			return true;
+		}
+		else if (evt.key.keysym.sym == SDLK_9) {
+			if (count == 0)
+			{
+				count++;
+				std::cout << "9!!!!" << std::endl;
+				std::cout << "get it??? \n \n" << std::endl;
+				std::cout << "it's 1:47 am i am ded inside" << std::endl;
+			}
 			return true;
 		}
 	} else if (evt.type == SDL_KEYUP) {
