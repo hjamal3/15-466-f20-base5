@@ -66,6 +66,8 @@ PlayMode::PlayMode() : scene(*phonebank_scene) {
 	//start player walking at nearest walk point:
 	player.at = walkmesh->nearest_walk_point(player.transform->position);
 
+	std::cout << "Why is 6 scared of 7? Because: " << std::endl;
+
 }
 
 PlayMode::~PlayMode() {

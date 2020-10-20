@@ -220,8 +220,7 @@ bool WalkMesh::cross_edge(WalkPoint const &start, WalkPoint *end_, glm::quat *ro
 	auto &rotation = *rotation_;
 
 	assert(start.weights.z == 0.0f); //*must* be on an edge.
-	glm::uvec2 edge = glm::uvec2(start.indices);
-
+	
 	auto f = next_vertex.find(glm::uvec2(start.indices.y, start.indices.x));
 
 	//check if 'edge' is a non-boundary edge:
