@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Dumb Puzzle
 
-Author: (TODO: your name)
+Author: Haidar Jamal
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Why is 6 scared of 7? Much too much time was spent on the WalkMesh...
 
 Screen Shot:
 
@@ -10,9 +10,9 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+WASD to move around and find the answer.
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: Didn't use any assets. Referenced 15-466 starter code and modified the .blend file. 
 
 This game was built with [NEST](NEST.md).
 
